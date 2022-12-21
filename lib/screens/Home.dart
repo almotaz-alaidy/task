@@ -31,10 +31,8 @@ class _HomeState extends State<Home> {
       Map _Movies = await _get_data.v3.movies.getTopRated(page: i);
       setState(() {
         topMovie = topMovie + _Movies['results'];
-        // print(_Movies);
       });
     }
-    print(topMovie);
   }
 
   @override

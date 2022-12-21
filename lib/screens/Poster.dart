@@ -12,8 +12,6 @@ class Poster extends StatefulWidget {
 }
 
 class _PosterState extends State<Poster> {
-  // List overViwe = widget.topMovie[widget.index]['overview'];
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
